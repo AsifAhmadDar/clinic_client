@@ -1,0 +1,12 @@
+
+.section{
+    position: relative;
+    min-height: calc(100vh - 75px);
+    // background: rgba(201, 201, 201, 0.219) !important;
+    margin-left: 250px;
+    width: calc(100% - 250px);
+}
+.section.expand{
+    margin-left: 88px !important;
+    width: calc(100% - 88px) !important;
+}

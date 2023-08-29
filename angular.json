@@ -32,18 +32,17 @@
             "styles": [
               "src/styles.scss",
               "src/assets/theme/theme.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css"
             ],
             "scripts": [
               "node_modules/@popperjs/core/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/lib/wow/wow.js"
-
+              "src/assets/lib/wow/wow.min.js"
             ]
           },
           "configurations": {
+            
             "production": {
               "budgets": [
                 {

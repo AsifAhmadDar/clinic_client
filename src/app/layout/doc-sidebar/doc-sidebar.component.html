@@ -1,0 +1,51 @@
+<nav class="sidebar shadow dark" [ngClass]="{'close':sidebarCollapse}">
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="/assets/img/team-2.jpg" class="rounded-circle" alt="">
+            </span>
+
+            <div class="text logo-text text-center p-2">
+                <span class="name">Umar Asif</span>
+                <span class="profession">Physician</span>
+            </div>
+        </div>
+        <i class='fa toggle' [ngClass]="sidebarCollapse?'fa-chevron-left':'fa-chevron-right'" (click)="toogleSideBar()"></i>
+    </header>
+
+    <div class="menu-bar">
+        <div class="menu mode">
+
+            <ul class="menu-links">
+                <li class="nav-link active">
+                    <a href="#" routerLink="/doctor/dashboard" routerLinkActive="active">
+                        <i class='fa fa-home-alt icon' ></i>
+                        <span class="text nav-text">Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#" routerLink="/doctor/appointments" routerLinkActive="active">
+                        <i class='fa fa-calendar alt-2 icon'></i>
+                        <span class="text nav-text">Appointsments</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#" routerLink="/doctor/patients" routerLinkActive="active">
+                        <i class='fa fa-user-group icon'></i>
+                        <span class="text nav-text">Patients</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#" routerLink="/doctor/manage-schedule" routerLinkActive="active">
+                        <i class='fa fa-clock icon'></i>
+                        <span class="text nav-text">Manage Timing</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>

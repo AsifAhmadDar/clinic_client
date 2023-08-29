@@ -1,0 +1,11 @@
+::ng-deep  .active.center .slide .testimonial-text{
+    background: var(--primary);
+    color: white;
+    h5{
+        color: white;
+    }
+}
+
+::ng-deep  .active.center .slide .rounded-circle{
+    background: var(--primary) !important;
+}

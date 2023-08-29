@@ -1,0 +1,17 @@
+<div class="row d-flex align-items-center justify-content-between">
+    <div class="col-lg-4" *ngFor="let info of docInfos">
+        <div class="card">
+        <div class="body p-2">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-4 text-center">
+                    <img [src]="info.icon" alt="" class="widget-img"> 
+                </div>
+                <div class="col-lg-8">
+                    <h6 class="text-secondary fw-light">{{info.name}}</h6>
+                    <span class="fs-5 fw-bold text-primary">{{info.count}}</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
